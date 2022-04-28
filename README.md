@@ -1,3 +1,3 @@
 # NetFlixFormSurvey
 
-Click [here](https://NetFlixFormSurvey.github.io.git) to go to my NetFlix project. 
+Click [here](https://NetFlixFormSurvey.github.io) to go to my NetFlix project. 
