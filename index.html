@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noflix Survey</title>
+    <meta name="keywords" content="form">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <div id="container">
+        <h1>NET<span>FLIX</span> </h1>
+        <p>Thank you for signing up at Netflix. Tell us about your self.</p>
+        <form action="result.html">
+            <div class="box1"><label for="name">Name</label> <br>
+                <input type="text" name="" id="" placeholder="Enter Your Name"></div>
+
+            <div class="box2"><label for="age">Age</label> <br>
+                <input type="text" name="" id="" placeholder="Age"></div>
+
+            <div class="box3"><label for="email">Email</label> <br>
+                <input type="text" name="" id="boxp" placeholder="Enter Your Email"></div>
+
+            <div class="box drop-down"><label for="content">Content Type</label> <br>
+                <select name="content" id="">
+                    <option value="sci-fi">Sci-Fi</option>
+                    <option value="horror">Horror</option>
+                </select>
+
+            <div class="box check-box">
+                Movie Type <br>
+                <input type="checkbox" name="cbox1" id="" value="comedy"> 
+                    <label for="cbox1">Comedy</label> <br>
+                <input type="checkbox" name="cbox2" id="" value="action"> 
+                    <label for="cbox2">Action</label> <br>
+                <input type="checkbox" name="cbox3" id="" value="Romance" checked>
+                    <label for="cbox3">Romance</label>
+            </div>
+            Gender
+                <div class="box radio-check">
+                <input type="radio" name="male" id=""><label for="male">Male</label> <br>
+                <input type="radio" name="female" id=""><label for="female">Female</label> <br>
+                <input type="radio" name="other" id=""><label for="other">Other</label>
+            </div>
+
+            <div class="box text-area">
+                <label for="text-area">Feed Back</label><br>
+                <textarea name="text-area" id=""  rows="6"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Submit</button>
+        </form> 
+
+
+    </div>
 </body>
 </html>

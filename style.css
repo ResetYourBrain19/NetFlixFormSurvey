@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    background-image: url(./background_image.jpg);
+    justify-content: center;
+}
+
+#container{
+
+
+    max-width: 70%;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+.box1.box2.box3 {
+    margin-bottom:20px ;
+}
+
+.check-box{
+    margin-bottom: 20px;
+}
+.radio-check{
+    margin-bottom: 20px;
+}
+span{
+    color: red;
+}
+
+.text-area{
+    display: flex ;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    border-radius: 25px;
+    width: 100px;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    color: white;
+    border-style: none;
+
+}
+
